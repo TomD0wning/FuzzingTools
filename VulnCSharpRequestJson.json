@@ -1,0 +1,14 @@
+POST /Vulnerable.ashx HTTP/1.1
+Host: 192.168.0.36
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:61.0) Gecko/20100101 Firefox/61.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://192.168.0.36/
+Content-Type: application/json; charset=UTF-8
+Content-Length: 190
+Cookie: ASP.NET_SessionId=234B0B1A670671C9F2B968D8
+DNT: 1
+Connection: close
+
+{"username":"whatthebobby","password":"propane1","age":42,"line1":"123 Main St","line2":"","city":"Arlan","state":"TX","zip":76727,"first":"Hank","middle":"","last":"Hill","method":"create"}
